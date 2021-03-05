@@ -1,2 +1,2 @@
-# group-divider
-Group Divider
+# team-generator
+Team Generator
