@@ -10,20 +10,30 @@
     <title>Random Team Generator</title>
   </head>
   <body>
-    <h1>Random Team Generator</h1>
     <div class="container">
+      <h1>Random Team Generator</h1>
       <form>
         <div class="form-group">
-          <label for="groupInput">How much Random Group</label>
+          <label for="groupInput">How much Random Team</label>
           <input type="text" name="groupInput" id="groupInput">
         </div>
         <div class="form-group">
-          <textarea name="nameInput" id="nameInput" cols="30" rows="10"></textarea>
+          <textarea name="nameInput" id="nameInput" cols="30" rows="10">
+            Ryu
+            Sagiri
+            Miku
+            Ichika
+            Itsuki
+            Nino
+          </textarea>
         </div>
-        <button type="submit"class="SubmitButton">Generate!</button>
+        <button type="submit" id="SubmitButton">Generate</button>
       </form>
-      <div class="Group"></div>
+
+      <!-- Randomized Team -->
+      <div id="Group"></div>
     </div>
-    <script src="./app.js"></script>
+
+    <script src="app.js"></script>
   </body>
 </html>
